@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .loginLink {
+    @apply text-md md:text-lg lg:text-lg  float-right  py-1 px-2 sm:px-3 md:px-4
+    border border-gray-700  rounded-full  hover:text-white hover:bg-gray-700;
+  }
+}
+

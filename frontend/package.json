@@ -1,0 +1,64 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^9.8.6",
+    "cors": "^2.8.5",
+    "postcss": "^7.0.35",
+    "postcss-cli": "^8.3.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.12.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-validation": "^3.0.7",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.6.3",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "twin.macro": "^1.12.1",
+    "validator": "^13.5.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "npm run build:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "tailwind:build": "NODE_ENV=production postcss src/tailwind.css -o src/tailwind.output.css",
+    "tailwind:dev": "postcss src/tailwind.css -o src/tailwind.output.css",
+    "prestart": "npm run tailwind:dev",
+    "prebuild": "npm run tailwind:build",
+    "watch": "NODE_ENV=production postcss src/tailwind.css -o src/tailwind.output.css --watch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

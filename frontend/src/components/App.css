@@ -1,0 +1,69 @@
+/* EvolveU Font */
+@font-face {
+font-family: 'Myriad Pro';
+/* font-style: normal; */
+font-weight: 400;
+src: url('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro';
+/* font-style: normal; */
+font-weight: 300;
+src: ('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-LIGHT.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro';
+/* font-style: normal; */
+font-weight: 600;
+src: url('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro';
+font-style: normal;
+font-weight: 700;
+src: url('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-BOLD.woff') format('woff');
+}
+
+
+
+/* EvolveU Text Classes */
+
+/* .bold {
+   font-family:'Myriad Pro Bold';
+   text-rendering: optimizeLegibility;
+   /* line-height: 0.9em; */
+/* } */
+
+/* .reg {
+   font-family:'Myriad Pro Regular';
+   font-family:'Myriad Pro Regular'; */
+   /* color: #1e90b4; */
+   /* text-rendering: optimizeLegibility; */
+   /* line-height: 0.9em; */
+/* } */
+
+/* .lite {
+   font-family:'Myriad Pro Light'; */
+   /* color: #666765; */
+   /* text-rendering: optimizeLegibility; */
+   /* line-height: 1.7em; */
+/* } */
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */

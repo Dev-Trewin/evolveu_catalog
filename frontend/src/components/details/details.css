@@ -1,0 +1,15 @@
+.list-component {
+  margin: auto 20%;
+  padding: auto 10%;
+}
+.margin-added {
+  margin: 10% 10%;
+  padding: auto 10%
+}
+#container-list{
+  height: 15vh;
+  width: 100%;
+}
+#container-thing{
+  margin-bottom: 5%;
+}
